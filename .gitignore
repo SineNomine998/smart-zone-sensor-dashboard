@@ -16,6 +16,7 @@ build/
 
 # IntelliJ IDEA files
 *.iml
+.idea/
 
 # npm package lock
 package-lock.json
