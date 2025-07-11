@@ -1,3 +1,5 @@
+This project was done for an internship application.
+
 # Smart Zone Sensor Dashboard
 
 ## Overview
