@@ -64,7 +64,7 @@ The Smart Zone Sensor Dashboard provides city officials with real-time and histo
 ## Usage Instructions
 
 1. **Run the Backend:**
-    - Ensure PostgreSQL is running and the sensor data is imported.
+    - Ensure the sensor data is imported.
     - Start the Node.js/Express server:
       ```bash
       node app.js
