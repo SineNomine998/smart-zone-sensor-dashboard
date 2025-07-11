@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# macOS system files
+.DS_Store
+
+# IntelliJ IDEA files
+*.iml
+
+# npm package lock
+package-lock.json
+yarn.lock
+
+# Vite cache
+.vite/

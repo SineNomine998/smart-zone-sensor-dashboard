@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Zone Sensor Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<header>
+  <h1>Smart Zone Sensor Dashboard</h1>
+</header>
+
+<section id="sensorSelection">
+  <label for="sensorSelect">Select Sensor:</label>
+  <select id="sensorSelect">
+    <option value="1">Sensor 1</option>
+    <option value="2">Sensor 2</option>
+    <option value="3">Sensor 3</option>
+    <option value="4">Sensor 4</option>
+  </select>
+  <button onclick="updateDashboard()">Update</button>
+  <p style="color: gray">Select a sensor and click on "Update" button for the Peak Parking Time and the Occupancy Rate graph below.</p>
+</section>
+
+<section id="metrics">
+  <div class="metric">
+    <h2>Total Parking Activities</h2>
+    <p id="totalActivities">Loading...</p>
+  </div>
+  <div class="metric">
+    <h2>Average Parking Duration</h2>
+    <p id="avgDuration">Loading...</p>
+  </div>
+  <div class="metric">
+    <h2>Peak Parking Time</h2>
+    <p id="peakTime">Loading...</p>
+  </div>
+</section>
+
+<section id="chartSection">
+  <canvas id="parkingChart" width="800" height="400"></canvas>
+</section>
+
+<script src="dashboard.js"></script>
+</body>
+</html>
