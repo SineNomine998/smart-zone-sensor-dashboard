@@ -75,6 +75,6 @@ The Smart Zone Sensor Dashboard provides city officials with real-time and histo
     - Use the sensor selection dropdown to view data for a specific sensor.
     - The dashboard will display updated metrics and a chart based on the selected sensor.
 
-## Conclusion
+## Questions?
 
-This README provides an overview of the functionality, key development decisions, and limitations encountered during the development of the Smart Zone Sensor Dashboard. Future improvements may include real-time data streaming, automated data cleaning, and scalability enhancements.
+If you have any questions regarding this project, feel free to shoot me an email `sinenomine998@gmail.com`.
